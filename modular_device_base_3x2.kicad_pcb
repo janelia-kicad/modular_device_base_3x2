@@ -773,7 +773,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE (layer F.Cu) (tedit 5894A546) (tstamp 58951E52)
+  (module footprints:MODULAR_DEVICE_BASE_3X2_FEMALE (layer F.Cu) (tedit 5894A546) (tstamp 5894DC94)
     (at 95.25 99.695)
     (path /5894E061)
     (fp_text reference MDB1 (at 0 0) (layer F.SilkS) hide
@@ -1056,13 +1056,13 @@
     (pad "" thru_hole circle (at 22.86 -17.78) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modular_device_base_3x2:TEENSY_3.2 (layer B.Cu) (tedit 5894A59B) (tstamp 58951E53)
+  (module footprints:TEENSY_3.2 (layer B.Cu) (tedit 5894A59B) (tstamp 5894DD07)
     (at 95.25 99.695 270)
-    (path /5894DF30)
+    (path /5894DCD6)
     (fp_text reference TEENSY1 (at 0 -19.05 270) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)) (justify mirror))
     )
-    (fp_text value TEENSY_3_2 (at 0 16.5 270) (layer B.SilkS)
+    (fp_text value TEENSY_3.2 (at 0 16.5 270) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)) (justify mirror))
     )
     (fp_circle (center 0 -13.335) (end 0 -12.065) (layer B.SilkS) (width 0.381))
