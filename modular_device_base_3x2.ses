@@ -1,55 +1,55 @@
 
-(session modular_device_teensy_3x2.ses
-  (base_design modular_device_teensy_3x2.dsn)
+(session modular_device_base_3x2.ses
+  (base_design modular_device_base_3x2.dsn)
   (placement
     (resolution um 10)
-    (component "modular_device_teensy_3x2:DO-214BA"
+    (component "modular_device_base_3x2:DO-214BA"
       (place D2 717550 -1136650 back 90)
     )
-    (component modular_device_teensy_3x2:SM1210
+    (component modular_device_base_3x2:SM1210
       (place C1 685800 -1066800 back 180)
       (place C2 628650 -1104900 back 270)
       (place C3 698500 -857250 back 90)
       (place C4 742950 -1066800 back 0)
       (place C5 882650 -996950 front 0)
     )
-    (component modular_device_teensy_3x2:Header_3_Pin_SMD_RA
+    (component modular_device_base_3x2:Header_3_Pin_SMD_RA
       (place P2 1276350 -831850 back 0)
       (place P3 1365250 -996950 front 270)
       (place P4 1276350 -1162050 back 180)
     )
-    (component modular_device_teensy_3x2:DC_DC_CONV_R78C
+    (component modular_device_base_3x2:DC_DC_CONV_R78C
       (place REG1 673100 -1130300 front 270)
     )
-    (component modular_device_teensy_3x2:BNC_DOUBLE
+    (component modular_device_base_3x2:BNC_DOUBLE
       (place P5 635000 -996950 front 90)
     )
-    (component modular_device_teensy_3x2:KT_SWITCH
+    (component modular_device_base_3x2:KT_SWITCH
       (place SW1 698500 -857250 front 90)
     )
-    (component modular_device_teensy_3x2:Header_2_Pin_SMD_RA
+    (component modular_device_base_3x2:Header_2_Pin_SMD_RA
       (place P6 1276350 -819150 front 0)
       (place P7 1276350 -1174750 front 180)
     )
-    (component modular_device_teensy_3x2:CFP15
+    (component modular_device_base_3x2:CFP15
       (place D4 1181100 -1092200 front 0)
       (place D3 641350 -996950 back 270)
     )
-    (component modular_device_teensy_3x2:TEENSY_3
+    (component modular_device_base_3x2:TEENSY_3
       (place TEENSY1 952500 -996950 back 90)
     )
-    (component modular_device_teensy_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA
+    (component modular_device_base_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA
       (place P1 1384300 -996950 back 0)
     )
-    (component "modular_device_teensy_3x2:DO-214BA::1"
+    (component "modular_device_base_3x2:DO-214BA::1"
       (place D1 812800 -996950 front 0)
     )
-    (component "modular_device_teensy_3x2:MOUNTING_HOLE_4-40"
+    (component "modular_device_base_3x2:MOUNTING_HOLE_4-40"
       (place MH1 622300 -819150 front 0)
       (place MH2 622300 -1174750 front 0)
       (place MH3 1181100 -996950 front 0)
     )
-    (component modular_device_teensy_3x2:MODULAR_DEVICE_TEENSY_3X2_FEMALE
+    (component modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE
       (place MDT1 952500 -996950 front 0)
     )
   )

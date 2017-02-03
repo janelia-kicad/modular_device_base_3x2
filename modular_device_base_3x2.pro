@@ -59,7 +59,7 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/polidorop/git/kicad/kicad-libraries/components
-LibName31=modular_device_teensy_3x2
+LibName31=modular_device_base_3x2
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

@@ -14,7 +14,7 @@
 
   (page A4)
   (title_block
-    (title modular_device_teensy_3x2)
+    (title modular_device_base_3x2)
     (rev 1.2)
   )
 
@@ -213,7 +213,7 @@
     (add_net /TX3)
   )
 
-  (module modular_device_teensy_3x2:DO-214BA (layer B.Cu) (tedit 57926E91) (tstamp 576408F8)
+  (module modular_device_base_3x2:DO-214BA (layer B.Cu) (tedit 57926E91) (tstamp 576408F8)
     (at 71.755 113.665 270)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -247,7 +247,7 @@
       (net 7 +5V))
   )
 
-  (module modular_device_teensy_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5751D183)
+  (module modular_device_base_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5751D183)
     (at 68.58 106.68)
     (tags "CMS SM")
     (path /5751CBF8)
@@ -275,7 +275,7 @@
     )
   )
 
-  (module modular_device_teensy_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5751D18F)
+  (module modular_device_base_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5751D18F)
     (at 62.865 110.49 90)
     (tags "CMS SM")
     (path /5751CD5D)
@@ -303,7 +303,7 @@
     )
   )
 
-  (module modular_device_teensy_3x2:Header_3_Pin_SMD_RA (layer B.Cu) (tedit 56D07500) (tstamp 5751D1AF)
+  (module modular_device_base_3x2:Header_3_Pin_SMD_RA (layer B.Cu) (tedit 56D07500) (tstamp 5751D1AF)
     (at 127.635 83.185 180)
     (path /5751EDB4)
     (fp_text reference P2 (at -5.715 -6.985 180) (layer B.SilkS)
@@ -332,7 +332,7 @@
       (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module modular_device_teensy_3x2:Header_3_Pin_SMD_RA (layer F.Cu) (tedit 56D07500) (tstamp 5751D1BE)
+  (module modular_device_base_3x2:Header_3_Pin_SMD_RA (layer F.Cu) (tedit 56D07500) (tstamp 5751D1BE)
     (at 136.525 99.695 270)
     (path /5751F224)
     (fp_text reference P3 (at -5.715 6.985 270) (layer F.SilkS)
@@ -361,7 +361,7 @@
       (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module modular_device_teensy_3x2:Header_3_Pin_SMD_RA (layer B.Cu) (tedit 56D07500) (tstamp 5751D1CD)
+  (module modular_device_base_3x2:Header_3_Pin_SMD_RA (layer B.Cu) (tedit 56D07500) (tstamp 5751D1CD)
     (at 127.635 116.205)
     (path /5751F26D)
     (fp_text reference P4 (at -5.715 -6.985) (layer B.SilkS)
@@ -390,7 +390,7 @@
       (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module modular_device_teensy_3x2:DC_DC_CONV_R78C (layer F.Cu) (tedit 5893924E) (tstamp 5751D1D8)
+  (module modular_device_base_3x2:DC_DC_CONV_R78C (layer F.Cu) (tedit 5893924E) (tstamp 5751D1D8)
     (at 67.31 113.03 270)
     (path /5751CAA6)
     (fp_text reference REG1 (at -0.635 -7.62 270) (layer F.SilkS)
@@ -411,7 +411,7 @@
       (net 10 VDD))
   )
 
-  (module modular_device_teensy_3x2:BNC_DOUBLE (layer F.Cu) (tedit 58939242) (tstamp 5751E46B)
+  (module modular_device_base_3x2:BNC_DOUBLE (layer F.Cu) (tedit 58939242) (tstamp 5751E46B)
     (at 63.5 99.695 90)
     (path /5751FB89)
     (fp_text reference P5 (at 0 11.43 90) (layer F.SilkS)
@@ -455,7 +455,7 @@
       (net 2 GND))
   )
 
-  (module modular_device_teensy_3x2:KT_SWITCH (layer F.Cu) (tedit 578905DA) (tstamp 57684B59)
+  (module modular_device_base_3x2:KT_SWITCH (layer F.Cu) (tedit 578905DA) (tstamp 57684B59)
     (at 69.85 85.725 90)
     (path /576846F0)
     (fp_text reference SW1 (at 0 4.445 90) (layer F.SilkS)
@@ -484,7 +484,7 @@
       (net 2 GND))
   )
 
-  (module modular_device_teensy_3x2:Header_2_Pin_SMD_RA (layer F.Cu) (tedit 5798ED0F) (tstamp 57683060)
+  (module modular_device_base_3x2:Header_2_Pin_SMD_RA (layer F.Cu) (tedit 5798ED0F) (tstamp 57683060)
     (at 127.635 81.915)
     (path /57643F2D)
     (fp_text reference P6 (at -5.08 6.985 180) (layer F.SilkS)
@@ -511,7 +511,7 @@
       (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module modular_device_teensy_3x2:Header_2_Pin_SMD_RA (layer F.Cu) (tedit 5798ED06) (tstamp 5768306E)
+  (module modular_device_base_3x2:Header_2_Pin_SMD_RA (layer F.Cu) (tedit 5798ED06) (tstamp 5768306E)
     (at 127.635 117.475 180)
     (path /57683F62)
     (fp_text reference P7 (at 5.08 6.985) (layer F.SilkS)
@@ -538,7 +538,7 @@
       (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module modular_device_teensy_3x2:CFP15 (layer F.Cu) (tedit 579271D6) (tstamp 57683052)
+  (module modular_device_base_3x2:CFP15 (layer F.Cu) (tedit 579271D6) (tstamp 57683052)
     (at 118.11 109.22)
     (path /5768344A)
     (fp_text reference D4 (at -3.175 0 90) (layer F.SilkS)
@@ -559,7 +559,7 @@
       (net 8 VCC) (solder_mask_margin 0.1) (clearance 0.1))
   )
 
-  (module modular_device_teensy_3x2:CFP15 (layer B.Cu) (tedit 5789062F) (tstamp 57683047)
+  (module modular_device_base_3x2:CFP15 (layer B.Cu) (tedit 5789062F) (tstamp 57683047)
     (at 64.135 99.695 90)
     (path /5768305F)
     (fp_text reference D3 (at 3.175 3.175 180) (layer B.SilkS)
@@ -580,7 +580,7 @@
       (net 1 VAA) (solder_mask_margin 0.1) (clearance 0.1))
   )
 
-  (module modular_device_teensy_3x2:TEENSY_3 (layer B.Cu) (tedit 5787AD33) (tstamp 5751D20D)
+  (module modular_device_base_3x2:TEENSY_3 (layer B.Cu) (tedit 5787AD33) (tstamp 5751D20D)
     (at 95.25 99.695 270)
     (path /5751BC55)
     (fp_text reference TEENSY1 (at 0 20.32 270) (layer B.SilkS)
@@ -695,7 +695,7 @@
       (net 40 /D29))
   )
 
-  (module modular_device_teensy_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5789013B)
+  (module modular_device_base_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 5789013B)
     (at 69.85 85.725 270)
     (tags "CMS SM")
     (path /5788FFF4)
@@ -723,7 +723,7 @@
     )
   )
 
-  (module modular_device_teensy_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 57890147)
+  (module modular_device_base_3x2:SM1210 (layer B.Cu) (tedit 5481F170) (tstamp 57890147)
     (at 74.295 106.68 180)
     (tags "CMS SM")
     (path /5789010A)
@@ -751,7 +751,7 @@
     )
   )
 
-  (module modular_device_teensy_3x2:SM1210 (layer F.Cu) (tedit 5481F170) (tstamp 57890153)
+  (module modular_device_base_3x2:SM1210 (layer F.Cu) (tedit 5481F170) (tstamp 57890153)
     (at 88.265 99.695)
     (tags "CMS SM")
     (path /57890173)
@@ -779,7 +779,7 @@
     )
   )
 
-  (module modular_device_teensy_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA (layer B.Cu) (tedit 57A8A715) (tstamp 5751D1A0)
+  (module modular_device_base_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA (layer B.Cu) (tedit 57A8A715) (tstamp 5751D1A0)
     (at 138.43 99.695 180)
     (path /5751E5C2)
     (fp_text reference P1 (at -7 -5.5 180) (layer B.SilkS)
@@ -808,7 +808,7 @@
     (pad "" thru_hole circle (at 1.45 0 180) (size 2.2 2.2) (drill 1.8) (layers *.Cu *.Mask B.SilkS))
   )
 
-  (module modular_device_teensy_3x2:DO-214BA (layer F.Cu) (tedit 57927245) (tstamp 576408E3)
+  (module modular_device_base_3x2:DO-214BA (layer F.Cu) (tedit 57927245) (tstamp 576408E3)
     (at 81.28 99.695)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -842,7 +842,7 @@
       (net 11 VEE))
   )
 
-  (module modular_device_teensy_3x2:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F76)
+  (module modular_device_base_3x2:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F76)
     (at 62.23 81.915)
     (path /57967F84)
     (fp_text reference MH1 (at 0 -3.175) (layer F.SilkS) hide
@@ -856,7 +856,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modular_device_teensy_3x2:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F7D)
+  (module modular_device_base_3x2:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F7D)
     (at 62.23 117.475)
     (path /57968003)
     (fp_text reference MH2 (at 0 -3.175) (layer F.SilkS) hide
@@ -870,7 +870,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modular_device_teensy_3x2:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F84)
+  (module modular_device_base_3x2:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F84)
     (at 118.11 99.695)
     (path /5796805F)
     (fp_text reference MH3 (at 0 -3.175) (layer F.SilkS) hide
@@ -884,13 +884,13 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modular_device_teensy_3x2:MODULAR_DEVICE_TEENSY_3X2_FEMALE (layer F.Cu) (tedit 579FBB0F) (tstamp 57992334)
+  (module modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE (layer F.Cu) (tedit 579FBB0F) (tstamp 57992334)
     (at 95.25 99.695)
     (path /57993352)
     (fp_text reference MDT1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value MODULAR_DEVICE_TEENSY_3X2_FEMALE (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value MODULAR_DEVICE_BASE_3X2_FEMALE (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text user DAC (at 19.05 15.24) (layer B.SilkS)
@@ -1182,7 +1182,7 @@
   (gr_text Bottom: (at 60.96 88.265 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
-  (gr_text "Janelia Modular Device\nmodular_device_teensy\npart_number: 1001 02/2017 ver 1.2 3x2" (at 95.25 111.76) (layer B.SilkS)
+  (gr_text "Janelia Modular Device\nmodular_device_base\npart_number: 1001 02/2017 ver 1.2 3x2" (at 95.25 111.76) (layer B.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)) (justify mirror))
   )
   (gr_text +9-42VDC (at 142.875 87.63 90) (layer B.SilkS)
@@ -1230,7 +1230,7 @@
   (gr_text 5V (at 74.93 109.22 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
-  (gr_text "Janelia Modular Device\nmodular_device_teensy\npart_number: 1001 02/2017 ver 1.2 3x2" (at 95.25 111.76) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\nmodular_device_base\npart_number: 1001 02/2017 ver 1.2 3x2" (at 95.25 111.76) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
   (gr_line (start 59.69 79.375) (end 59.69 120.015) (angle 90) (layer Edge.Cuts) (width 0.2286))

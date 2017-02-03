@@ -1,4 +1,4 @@
-(pcb /home/polidorop/git/kicad/modular_device_teensy_3x2/modular_device_teensy_3x2.dsn
+(pcb /home/polidorop/git/kicad/modular_device_base_3x2/modular_device_base_3x2.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -35,58 +35,58 @@
     )
   )
   (placement
-    (component "modular_device_teensy_3x2:DO-214BA"
+    (component "modular_device_base_3x2:DO-214BA"
       (place D2 71755 -113665 back 90 (PN diode_schottky_15V_1A))
     )
-    (component modular_device_teensy_3x2:SM1210
+    (component modular_device_base_3x2:SM1210
       (place C1 68580 -106680 back 180 (PN 10uF))
       (place C2 62865 -110490 back 270 (PN 10uF))
       (place C3 69850 -85725 back 90 (PN 10uF))
       (place C4 74295 -106680 back 0 (PN 10uF))
       (place C5 88265 -99695 front 0 (PN 10uF))
     )
-    (component modular_device_teensy_3x2:Header_3_Pin_SMD_RA
+    (component modular_device_base_3x2:Header_3_Pin_SMD_RA
       (place P2 127635 -83185 back 0 (PN HEADER_01X03_SMD_RA))
       (place P3 136525 -99695 front 270 (PN HEADER_01X03_SMD_RA))
       (place P4 127635 -116205 back 180 (PN HEADER_01X03_SMD_RA))
     )
-    (component modular_device_teensy_3x2:DC_DC_CONV_R78C
+    (component modular_device_base_3x2:DC_DC_CONV_R78C
       (place REG1 67310 -113030 front 270 (PN CONV_DC_DC_5V_1A))
     )
-    (component modular_device_teensy_3x2:BNC_DOUBLE
+    (component modular_device_base_3x2:BNC_DOUBLE
       (place P5 63500 -99695 front 90 (PN BNC_DOUBLE_RA))
     )
-    (component modular_device_teensy_3x2:KT_SWITCH
+    (component modular_device_base_3x2:KT_SWITCH
       (place SW1 69850 -85725 front 90 (PN KT_SWITCH))
     )
-    (component modular_device_teensy_3x2:Header_2_Pin_SMD_RA
+    (component modular_device_base_3x2:Header_2_Pin_SMD_RA
       (place P6 127635 -81915 front 0 (PN HEADER_01X02_SMD_RA))
       (place P7 127635 -117475 front 180 (PN HEADER_01X02_SMD_RA))
     )
-    (component modular_device_teensy_3x2:CFP15
+    (component modular_device_base_3x2:CFP15
       (place D4 118110 -109220 front 0 (PN diode_schottky_45V_10A))
       (place D3 64135 -99695 back 270 (PN diode_schottky_45V_10A))
     )
-    (component modular_device_teensy_3x2:TEENSY_3
+    (component modular_device_base_3x2:TEENSY_3
       (place TEENSY1 95250 -99695 back 90 (PN TEENSY_3_2))
     )
-    (component modular_device_teensy_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA
+    (component modular_device_base_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA
       (place P1 138430 -99695 back 0 (PN PWR_JACK_2.5x5.5_SMD_RA))
     )
-    (component "modular_device_teensy_3x2:DO-214BA::1"
+    (component "modular_device_base_3x2:DO-214BA::1"
       (place D1 81280 -99695 front 0 (PN diode_schottky_15V_1A))
     )
-    (component "modular_device_teensy_3x2:MOUNTING_HOLE_4-40"
+    (component "modular_device_base_3x2:MOUNTING_HOLE_4-40"
       (place MH1 62230 -81915 front 0 (PN MNT_HOLE))
       (place MH2 62230 -117475 front 0 (PN MNT_HOLE))
       (place MH3 118110 -99695 front 0 (PN MNT_HOLE))
     )
-    (component modular_device_teensy_3x2:MODULAR_DEVICE_TEENSY_3X2_FEMALE
-      (place MDT1 95250 -99695 front 0 (PN MODULAR_DEVICE_TEENSY_3X2_FEMALE))
+    (component modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE
+      (place MDT1 95250 -99695 front 0 (PN MODULAR_DEVICE_BASE_3X2_FEMALE))
     )
   )
   (library
-    (image "modular_device_teensy_3x2:DO-214BA"
+    (image "modular_device_base_3x2:DO-214BA"
       (outline (path signal 150  2250 -1950  -2250 -1950))
       (outline (path signal 150  -2250 1950  2250 1950))
       (outline (path signal 150  -1200 1550  -1200 1950))
@@ -106,7 +106,7 @@
       (pin Rect[T]Pad_2710x2500_um 1 -1940 0)
       (pin Rect[T]Pad_2710x2500_um 2 1940 0)
     )
-    (image modular_device_teensy_3x2:SM1210
+    (image modular_device_base_3x2:SM1210
       (outline (path signal 127  -762 1397  -2286 1397))
       (outline (path signal 127  -2286 1397  -2286 -1397))
       (outline (path signal 127  -2286 -1397  -762 -1397))
@@ -116,7 +116,7 @@
       (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
       (pin Rect[T]Pad_1270x2540_um 2 1524 0)
     )
-    (image modular_device_teensy_3x2:Header_3_Pin_SMD_RA
+    (image modular_device_base_3x2:Header_3_Pin_SMD_RA
       (outline (path signal 381  -6350 8255  6350 8255))
       (outline (path signal 381  6350 8255  6350 -5715))
       (outline (path signal 381  -6350 8255  -6350 -5715))
@@ -129,7 +129,7 @@
       (pin Rect[T]Pad_2794x4826_um @3 -5994.4 0)
       (pin Rect[T]Pad_2794x4826_um @4 5994.4 0)
     )
-    (image modular_device_teensy_3x2:DC_DC_CONV_R78C
+    (image modular_device_base_3x2:DC_DC_CONV_R78C
       (outline (path signal 381  5715 -1905  5715 6350))
       (outline (path signal 381  5715 6350  -5715 6350))
       (outline (path signal 381  -5715 6350  -5715 -1905))
@@ -138,7 +138,7 @@
       (pin Oval[A]Pad_1524x2540_um 3 2540 0)
       (pin Oval[A]Pad_1524x2540_um 1 -2540 0)
     )
-    (image modular_device_teensy_3x2:BNC_DOUBLE
+    (image modular_device_base_3x2:BNC_DOUBLE
       (outline (path signal 381  2540 -6350  3302 -5588))
       (outline (path signal 381  -1270 -7620  -2286 -6096))
       (outline (path signal 381  -6350 5715  -6350 6350))
@@ -157,7 +157,7 @@
       (pin Oval[A][254,0]Pad_2032x1524_um 2 2540 -8890)
       (pin "Oval[A][-254,0]Pad_2032x1524_um" 4 -2540 -8890)
     )
-    (image modular_device_teensy_3x2:KT_SWITCH
+    (image modular_device_base_3x2:KT_SWITCH
       (outline (path signal 381  0 -762  -762 254))
       (outline (path signal 381  0 -2032  0 -762))
       (outline (path signal 381  0 2032  0 762))
@@ -172,7 +172,7 @@
       (pin Rect[T]Pad_2667x1590.04_um 4 4127.5 -1998.98)
       (pin Rect[T]Pad_2667x1590.04_um 3 -4127.5 -1998.98)
     )
-    (image modular_device_teensy_3x2:Header_2_Pin_SMD_RA
+    (image modular_device_base_3x2:Header_2_Pin_SMD_RA
       (outline (path signal 381  -5080 8255  5080 8255))
       (outline (path signal 381  5080 8255  5080 -5715))
       (outline (path signal 381  -5080 8255  -5080 -5715))
@@ -184,7 +184,7 @@
       (pin Rect[T]Pad_2794x4826_um @3 -4724.4 0)
       (pin Rect[T]Pad_2794x4826_um @4 4724.4 0)
     )
-    (image modular_device_teensy_3x2:CFP15
+    (image modular_device_base_3x2:CFP15
       (outline (path signal 228.6  -2300 3750  2300 3750))
       (outline (path signal 228.6  2300 3750  2300 -3750))
       (outline (path signal 228.6  2300 -3750  -2300 -3750))
@@ -193,7 +193,7 @@
       (pin Rect[T]Pad_1600x1440_um 2 -1065 2780)
       (pin Rect[T]Pad_1600x1440_um 2@1 1065 2780)
     )
-    (image modular_device_teensy_3x2:TEENSY_3
+    (image modular_device_base_3x2:TEENSY_3
       (outline (path signal 381  1270 -13335  1207.84 -13727.5  1027.45 -14081.5  746.487 -14362.5
             392.452 -14542.8  0 -14605  -392.452 -14542.8  -746.487 -14362.5
             -1027.45 -14081.5  -1207.84 -13727.5  -1270 -13335  -1207.84 -12942.5
@@ -262,7 +262,7 @@
       (pin Oval[A][508,0]Pad_2540x1524_um 30 2540 -11430)
       (pin Oval[A][508,0]Pad_2540x1524_um 29 2540 -13970)
     )
-    (image modular_device_teensy_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA
+    (image modular_device_base_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA
       (outline (path signal 381  4826 -4445  4826 -1905))
       (outline (path signal 381  4826 -1905  6985 -1905))
       (outline (path signal 381  -8001 2921  -4826 2921))
@@ -279,7 +279,7 @@
       (pin Round[A]Pad_2000_um @1 -3050 0)
       (pin Round[A]Pad_2200_um @2 1450 0)
     )
-    (image "modular_device_teensy_3x2:DO-214BA::1"
+    (image "modular_device_base_3x2:DO-214BA::1"
       (outline (path signal 50  -3000 2250  3000 2250))
       (outline (path signal 50  3000 2250  3000 -2250))
       (outline (path signal 50  3000 -2250  -3000 -2250))
@@ -299,7 +299,7 @@
       (pin Rect[T]Pad_2710x2500_um 2 1940 0)
       (pin Rect[T]Pad_2710x2500_um 1 -1940 0)
     )
-    (image "modular_device_teensy_3x2:MOUNTING_HOLE_4-40"
+    (image "modular_device_base_3x2:MOUNTING_HOLE_4-40"
       (outline (path signal 228.6  2260.6 0  2149.96 -698.564  1828.86 -1328.75  1328.75 -1828.86
             698.564 -2149.96  0 -2260.6  -698.564 -2149.96  -1328.75 -1828.86
             -1828.86 -1328.75  -2149.96 -698.564  -2260.6 0  -2149.96 698.564
@@ -312,7 +312,7 @@
             1492.97 2054.9  2054.9 1492.97  2415.68 784.903))
       (pin Round[A]Pad_3556_um 1 0 0)
     )
-    (image modular_device_teensy_3x2:MODULAR_DEVICE_TEENSY_3X2_FEMALE
+    (image modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE
       (outline (path signal 381  -20320 -16510  -20320 -19050))
       (outline (path signal 381  -20320 -19050  20320 -19050))
       (outline (path signal 381  20320 -19050  20320 -16510))

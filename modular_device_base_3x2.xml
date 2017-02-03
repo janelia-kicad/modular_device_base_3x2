@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/polidorop/git/kicad/modular_device_teensy_3x2/modular_device_teensy_3x2.sch</source>
+    <source>/home/polidorop/git/kicad/modular_device_base_3x2/modular_device_base_3x2.sch</source>
     <date>Thu 02 Feb 2017 03:04:47 PM EST</date>
     <tool>Eeschema no-vcs-found-7571~57~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>modular_device_teensy_3x2</title>
+        <title>modular_device_base_3x2</title>
         <company>Janelia</company>
         <rev>1.2</rev>
         <date/>
-        <source>modular_device_teensy_3x2.sch</source>
+        <source>modular_device_base_3x2.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="TEENSY1">
       <value>TEENSY_3_2</value>
-      <footprint>modular_device_teensy_3x2:TEENSY_3</footprint>
+      <footprint>modular_device_base_3x2:TEENSY_3</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">1568-1231-ND</field>
@@ -33,7 +33,7 @@
     </comp>
     <comp ref="REG1">
       <value>CONV_DC_DC_5V_1A</value>
-      <footprint>modular_device_teensy_3x2:DC_DC_CONV_R78C</footprint>
+      <footprint>modular_device_base_3x2:DC_DC_CONV_R78C</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">945-1395-5-ND</field>
@@ -45,7 +45,7 @@
     </comp>
     <comp ref="C1">
       <value>10uF</value>
-      <footprint>modular_device_teensy_3x2:SM1210</footprint>
+      <footprint>modular_device_base_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">445-4536-1-ND</field>
@@ -57,7 +57,7 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>modular_device_teensy_3x2:SM1210</footprint>
+      <footprint>modular_device_base_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">445-4536-1-ND</field>
@@ -69,7 +69,7 @@
     </comp>
     <comp ref="P1">
       <value>PWR_JACK_2.5x5.5_SMD_RA</value>
-      <footprint>modular_device_teensy_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA</footprint>
+      <footprint>modular_device_base_3x2:DCJACK_2PIN_HIGHCURRENT_SMD_RA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">CP-002BHPJCT-ND</field>
@@ -81,7 +81,7 @@
     </comp>
     <comp ref="P2">
       <value>HEADER_01X03_SMD_RA</value>
-      <footprint>modular_device_teensy_3x2:Header_3_Pin_SMD_RA</footprint>
+      <footprint>modular_device_base_3x2:Header_3_Pin_SMD_RA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">A100890CT-ND</field>
@@ -93,7 +93,7 @@
     </comp>
     <comp ref="P3">
       <value>HEADER_01X03_SMD_RA</value>
-      <footprint>modular_device_teensy_3x2:Header_3_Pin_SMD_RA</footprint>
+      <footprint>modular_device_base_3x2:Header_3_Pin_SMD_RA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">A100890CT-ND</field>
@@ -105,7 +105,7 @@
     </comp>
     <comp ref="P4">
       <value>HEADER_01X03_SMD_RA</value>
-      <footprint>modular_device_teensy_3x2:Header_3_Pin_SMD_RA</footprint>
+      <footprint>modular_device_base_3x2:Header_3_Pin_SMD_RA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">A100890CT-ND</field>
@@ -117,7 +117,7 @@
     </comp>
     <comp ref="P5">
       <value>BNC_DOUBLE_RA</value>
-      <footprint>modular_device_teensy_3x2:BNC_DOUBLE</footprint>
+      <footprint>modular_device_base_3x2:BNC_DOUBLE</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">ACX1655-ND</field>
@@ -129,7 +129,7 @@
     </comp>
     <comp ref="D1">
       <value>diode_schottky_15V_1A</value>
-      <footprint>modular_device_teensy_3x2:DO-214BA</footprint>
+      <footprint>modular_device_base_3x2:DO-214BA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">LSM115JE3/TR13CT-ND</field>
@@ -141,7 +141,7 @@
     </comp>
     <comp ref="D2">
       <value>diode_schottky_15V_1A</value>
-      <footprint>modular_device_teensy_3x2:DO-214BA</footprint>
+      <footprint>modular_device_base_3x2:DO-214BA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">LSM115JE3/TR13CT-ND</field>
@@ -153,7 +153,7 @@
     </comp>
     <comp ref="P6">
       <value>HEADER_01X02_SMD_RA</value>
-      <footprint>modular_device_teensy_3x2:Header_2_Pin_SMD_RA</footprint>
+      <footprint>modular_device_base_3x2:Header_2_Pin_SMD_RA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">A100903CT-ND</field>
@@ -165,7 +165,7 @@
     </comp>
     <comp ref="D3">
       <value>diode_schottky_45V_10A</value>
-      <footprint>modular_device_teensy_3x2:CFP15</footprint>
+      <footprint>modular_device_base_3x2:CFP15</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">568-11697-1-ND</field>
@@ -177,7 +177,7 @@
     </comp>
     <comp ref="D4">
       <value>diode_schottky_45V_10A</value>
-      <footprint>modular_device_teensy_3x2:CFP15</footprint>
+      <footprint>modular_device_base_3x2:CFP15</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">568-11697-1-ND</field>
@@ -189,7 +189,7 @@
     </comp>
     <comp ref="P7">
       <value>HEADER_01X02_SMD_RA</value>
-      <footprint>modular_device_teensy_3x2:Header_2_Pin_SMD_RA</footprint>
+      <footprint>modular_device_base_3x2:Header_2_Pin_SMD_RA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">A100903CT-ND</field>
@@ -201,7 +201,7 @@
     </comp>
     <comp ref="SW1">
       <value>KT_SWITCH</value>
-      <footprint>modular_device_teensy_3x2:KT_SWITCH</footprint>
+      <footprint>modular_device_base_3x2:KT_SWITCH</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">CKN1860CT-ND</field>
@@ -213,7 +213,7 @@
     </comp>
     <comp ref="C3">
       <value>10uF</value>
-      <footprint>modular_device_teensy_3x2:SM1210</footprint>
+      <footprint>modular_device_base_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">445-4536-1-ND</field>
@@ -225,7 +225,7 @@
     </comp>
     <comp ref="C4">
       <value>10uF</value>
-      <footprint>modular_device_teensy_3x2:SM1210</footprint>
+      <footprint>modular_device_base_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">445-4536-1-ND</field>
@@ -237,7 +237,7 @@
     </comp>
     <comp ref="C5">
       <value>10uF</value>
-      <footprint>modular_device_teensy_3x2:SM1210</footprint>
+      <footprint>modular_device_base_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">445-4536-1-ND</field>
@@ -249,50 +249,50 @@
     </comp>
     <comp ref="MH1">
       <value>MNT_HOLE</value>
-      <footprint>modular_device_teensy_3x2:MOUNTING_HOLE_4-40</footprint>
+      <footprint>modular_device_base_3x2:MOUNTING_HOLE_4-40</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">36-2027-ND</field>
         <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
       </fields>
-      <libsource lib="modular_device_teensy_3x2" part="MNT_HOLE"/>
+      <libsource lib="modular_device_base_3x2" part="MNT_HOLE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57967F84</tstamp>
     </comp>
     <comp ref="MH2">
       <value>MNT_HOLE</value>
-      <footprint>modular_device_teensy_3x2:MOUNTING_HOLE_4-40</footprint>
+      <footprint>modular_device_base_3x2:MOUNTING_HOLE_4-40</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">36-2027-ND</field>
         <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
       </fields>
-      <libsource lib="modular_device_teensy_3x2" part="MNT_HOLE"/>
+      <libsource lib="modular_device_base_3x2" part="MNT_HOLE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57968003</tstamp>
     </comp>
     <comp ref="MH3">
       <value>MNT_HOLE</value>
-      <footprint>modular_device_teensy_3x2:MOUNTING_HOLE_4-40</footprint>
+      <footprint>modular_device_base_3x2:MOUNTING_HOLE_4-40</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">36-2027-ND</field>
         <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
       </fields>
-      <libsource lib="modular_device_teensy_3x2" part="MNT_HOLE"/>
+      <libsource lib="modular_device_base_3x2" part="MNT_HOLE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5796805F</tstamp>
     </comp>
     <comp ref="MDT1">
-      <value>MODULAR_DEVICE_TEENSY_3X2_FEMALE</value>
-      <footprint>modular_device_teensy_3x2:MODULAR_DEVICE_TEENSY_3X2_FEMALE</footprint>
+      <value>MODULAR_DEVICE_BASE_3X2_FEMALE</value>
+      <footprint>modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S7049-ND</field>
         <field name="Description">16 Position Header Through Hole Female Socket</field>
         <field name="PartCount">2</field>
       </fields>
-      <libsource lib="modular_device_teensy_3x2" part="MODULAR_DEVICE_TEENSY_3X2_FEMALE"/>
+      <libsource lib="modular_device_base_3x2" part="MODULAR_DEVICE_BASE_3X2_FEMALE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57993352</tstamp>
     </comp>
@@ -410,7 +410,7 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="modular_device_teensy_3x2" part="MNT_HOLE">
+    <libpart lib="modular_device_base_3x2" part="MNT_HOLE">
       <description>Connector, single row, 01x01</description>
       <footprints>
         <fp>Pin_Header_Straight_1X01</fp>
@@ -421,7 +421,7 @@
       <fields>
         <field name="Reference">MH</field>
         <field name="Value">MNT_HOLE</field>
-        <field name="Footprint">modular_device_teensy_3x2:MOUNTING_HOLE_4-40</field>
+        <field name="Footprint">modular_device_base_3x2:MOUNTING_HOLE_4-40</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">36-2027-ND</field>
         <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
@@ -430,11 +430,11 @@
         <pin num="1" name="P1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="modular_device_teensy_3x2" part="MODULAR_DEVICE_TEENSY_3X2_FEMALE">
+    <libpart lib="modular_device_base_3x2" part="MODULAR_DEVICE_BASE_3X2_FEMALE">
       <fields>
         <field name="Reference">MDT</field>
-        <field name="Value">MODULAR_DEVICE_TEENSY_3X2_FEMALE</field>
-        <field name="Footprint">modular_device_teensy_3x2:MODULAR_DEVICE_TEENSY_3X2_FEMALE</field>
+        <field name="Value">MODULAR_DEVICE_BASE_3X2_FEMALE</field>
+        <field name="Footprint">modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S7049-ND</field>
         <field name="Description">16 Position Header Through Hole Female Socket</field>
@@ -600,8 +600,8 @@
     <library logical="components">
       <uri>/home/polidorop/git/kicad/kicad-libraries/components.lib</uri>
     </library>
-    <library logical="modular_device_teensy_3x2">
-      <uri>/home/polidorop/git/kicad/modular_device_teensy_3x2/modular_device_teensy_3x2.lib</uri>
+    <library logical="modular_device_base_3x2">
+      <uri>/home/polidorop/git/kicad/modular_device_base_3x2/modular_device_base_3x2.lib</uri>
     </library>
   </libraries>
   <nets>
