@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/modular_device_base_3x2/modular_device_base_3x2.sch</source>
-    <date>Thu 02 Feb 2017 03:04:47 PM EST</date>
-    <tool>Eeschema no-vcs-found-7571~57~ubuntu16.04.1</tool>
+    <date>Fri 03 Feb 2017 10:57:24 AM EST</date>
+    <tool>Eeschema no-vcs-found-7584~57~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>modular_device_base_3x2</title>
@@ -19,18 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="TEENSY1">
-      <value>TEENSY_3_2</value>
-      <footprint>modular_device_base_3x2:TEENSY_3</footprint>
-      <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">1568-1231-ND</field>
-        <field name="Description">DEV TEENSY 3.2 13736</field>
-      </fields>
-      <libsource lib="components" part="TEENSY_3_2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5751BC55</tstamp>
-    </comp>
     <comp ref="REG1">
       <value>CONV_DC_DC_5V_1A</value>
       <footprint>modular_device_base_3x2:DC_DC_CONV_R78C</footprint>
@@ -283,18 +271,30 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5796805F</tstamp>
     </comp>
-    <comp ref="MDT1">
-      <value>MODULAR_DEVICE_BASE_3X2_FEMALE</value>
-      <footprint>modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE</footprint>
+    <comp ref="TEENSY1">
+      <value>TEENSY_3_2</value>
+      <footprint>footprints:TEENSY_3.2</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">1568-1231-ND</field>
+        <field name="Description">DEV TEENSY 3.2 13736</field>
+      </fields>
+      <libsource lib="components" part="TEENSY_3_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5894DF30</tstamp>
+    </comp>
+    <comp ref="MDB1">
+      <value>MODULAR_DEVICE_BASE_3x2_FEMALE</value>
+      <footprint>footprints:MODULAR_DEVICE_BASE_3X2_FEMALE</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S7049-ND</field>
         <field name="Description">16 Position Header Through Hole Female Socket</field>
         <field name="PartCount">2</field>
       </fields>
-      <libsource lib="modular_device_base_3x2" part="MODULAR_DEVICE_BASE_3X2_FEMALE"/>
+      <libsource lib="components" part="MODULAR_DEVICE_BASE_3x2_FEMALE"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>57993352</tstamp>
+      <tstamp>5894E061</tstamp>
     </comp>
   </components>
   <libparts>
@@ -430,11 +430,11 @@
         <pin num="1" name="P1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="modular_device_base_3x2" part="MODULAR_DEVICE_BASE_3X2_FEMALE">
+    <libpart lib="components" part="MODULAR_DEVICE_BASE_3x2_FEMALE">
       <fields>
-        <field name="Reference">MDT</field>
-        <field name="Value">MODULAR_DEVICE_BASE_3X2_FEMALE</field>
-        <field name="Footprint">modular_device_base_3x2:MODULAR_DEVICE_BASE_3X2_FEMALE</field>
+        <field name="Reference">MDB</field>
+        <field name="Value">MODULAR_DEVICE_BASE_3x2_FEMALE</field>
+        <field name="Footprint">footprints:MODULAR_DEVICE_BASE_3X2_FEMALE</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S7049-ND</field>
         <field name="Description">16 Position Header Through Hole Female Socket</field>
@@ -499,7 +499,7 @@
       <fields>
         <field name="Reference">TEENSY</field>
         <field name="Value">TEENSY_3_2</field>
-        <field name="Footprint">footprints:TEENSY_3</field>
+        <field name="Footprint">footprints:TEENSY_3.2</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">1568-1231-ND</field>
         <field name="Description">DEV TEENSY 3.2 13736</field>
@@ -605,234 +605,234 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/D24">
-      <node ref="TEENSY1" pin="24"/>
-      <node ref="MDT1" pin="24"/>
-    </net>
-    <net code="2" name="/D18">
-      <node ref="TEENSY1" pin="18"/>
-      <node ref="MDT1" pin="18"/>
-    </net>
-    <net code="3" name="/D17">
-      <node ref="TEENSY1" pin="17"/>
-      <node ref="MDT1" pin="17"/>
-    </net>
-    <net code="4" name="/D16">
-      <node ref="MDT1" pin="16"/>
-      <node ref="TEENSY1" pin="16"/>
-    </net>
-    <net code="5" name="/D15">
-      <node ref="MDT1" pin="15"/>
-      <node ref="TEENSY1" pin="15"/>
-    </net>
-    <net code="6" name="/D14">
-      <node ref="MDT1" pin="14"/>
-      <node ref="TEENSY1" pin="14"/>
-    </net>
-    <net code="7" name="/D13">
-      <node ref="MDT1" pin="13"/>
-      <node ref="TEENSY1" pin="13"/>
-    </net>
-    <net code="8" name="/DAC">
-      <node ref="TEENSY1" pin="DAC"/>
-      <node ref="MDT1" pin="DAC"/>
-    </net>
-    <net code="9" name="/D30">
-      <node ref="TEENSY1" pin="30"/>
-      <node ref="MDT1" pin="30"/>
-    </net>
-    <net code="10" name="/D29">
-      <node ref="TEENSY1" pin="29"/>
-      <node ref="MDT1" pin="29"/>
-    </net>
-    <net code="11" name="/D28">
-      <node ref="TEENSY1" pin="28"/>
-      <node ref="MDT1" pin="28"/>
-    </net>
-    <net code="12" name="/D25">
-      <node ref="TEENSY1" pin="25"/>
-      <node ref="MDT1" pin="25"/>
-    </net>
-    <net code="13" name="/D19">
-      <node ref="MDT1" pin="19"/>
-      <node ref="TEENSY1" pin="19"/>
-    </net>
-    <net code="14" name="Net-(TEENSY1-PadA11)">
-      <node ref="TEENSY1" pin="A11"/>
-    </net>
-    <net code="15" name="Net-(TEENSY1-PadA13)">
-      <node ref="TEENSY1" pin="A13"/>
-    </net>
-    <net code="16" name="Net-(TEENSY1-Pad27)">
-      <node ref="TEENSY1" pin="27"/>
-    </net>
-    <net code="17" name="Net-(TEENSY1-PadA12)">
-      <node ref="TEENSY1" pin="A12"/>
-    </net>
-    <net code="18" name="Net-(TEENSY1-PadA10)">
-      <node ref="TEENSY1" pin="A10"/>
-    </net>
-    <net code="19" name="/D12">
-      <node ref="TEENSY1" pin="12"/>
-      <node ref="MDT1" pin="12"/>
-    </net>
-    <net code="20" name="/D11">
-      <node ref="MDT1" pin="11"/>
-      <node ref="TEENSY1" pin="11"/>
-    </net>
-    <net code="21" name="/D10">
-      <node ref="MDT1" pin="10"/>
-      <node ref="TEENSY1" pin="10"/>
-    </net>
-    <net code="22" name="/D9">
-      <node ref="TEENSY1" pin="9"/>
-      <node ref="MDT1" pin="9"/>
-    </net>
-    <net code="23" name="/D20">
-      <node ref="MDT1" pin="20"/>
-      <node ref="TEENSY1" pin="20"/>
-    </net>
-    <net code="24" name="/D21">
-      <node ref="MDT1" pin="21"/>
-      <node ref="TEENSY1" pin="21"/>
-    </net>
-    <net code="25" name="/D22">
-      <node ref="TEENSY1" pin="22"/>
-      <node ref="MDT1" pin="22"/>
-    </net>
-    <net code="26" name="/D23">
-      <node ref="MDT1" pin="23"/>
-      <node ref="TEENSY1" pin="23"/>
-    </net>
-    <net code="27" name="/D6">
-      <node ref="MDT1" pin="6"/>
-      <node ref="TEENSY1" pin="6"/>
-    </net>
-    <net code="28" name="/D4">
-      <node ref="TEENSY1" pin="4"/>
-      <node ref="MDT1" pin="4"/>
-    </net>
-    <net code="29" name="/D3">
-      <node ref="MDT1" pin="3"/>
-      <node ref="TEENSY1" pin="3"/>
-    </net>
-    <net code="30" name="/D2">
-      <node ref="MDT1" pin="2"/>
-      <node ref="TEENSY1" pin="2"/>
-    </net>
-    <net code="31" name="/BNC_B">
-      <node ref="P5" pin="3"/>
-      <node ref="TEENSY1" pin="32"/>
-    </net>
-    <net code="32" name="/BNC_A">
-      <node ref="P5" pin="1"/>
-      <node ref="TEENSY1" pin="33"/>
-    </net>
-    <net code="33" name="/D5">
-      <node ref="MDT1" pin="5"/>
-      <node ref="TEENSY1" pin="5"/>
-    </net>
-    <net code="34" name="Net-(MH3-Pad1)">
-      <node ref="MH3" pin="1"/>
-    </net>
-    <net code="35" name="Net-(MH2-Pad1)">
-      <node ref="MH2" pin="1"/>
-    </net>
-    <net code="36" name="Net-(MH1-Pad1)">
-      <node ref="MH1" pin="1"/>
-    </net>
-    <net code="37" name="GND">
-      <node ref="P7" pin="1"/>
-      <node ref="P3" pin="2"/>
-      <node ref="P5" pin="4"/>
-      <node ref="P5" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="C2" pin="2"/>
-      <node ref="TEENSY1" pin="GND"/>
-      <node ref="REG1" pin="2"/>
-      <node ref="MDT1" pin="GND"/>
-      <node ref="P2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="P1" pin="2"/>
-      <node ref="P4" pin="2"/>
-      <node ref="P6" pin="2"/>
-    </net>
-    <net code="38" name="/3V3">
+    <net code="1" name="/3V3">
       <node ref="TEENSY1" pin="3V3"/>
       <node ref="C5" pin="1"/>
-      <node ref="MDT1" pin="3V3"/>
+      <node ref="MDB1" pin="3V3"/>
     </net>
-    <net code="39" name="VEE">
-      <node ref="D2" pin="1"/>
-      <node ref="TEENSY1" pin="V_IN"/>
-      <node ref="MDT1" pin="VEE"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="40" name="VDD">
-      <node ref="D4" pin="1"/>
-      <node ref="REG1" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="MDT1" pin="VDD"/>
-      <node ref="C1" pin="1"/>
-      <node ref="P7" pin="2"/>
-    </net>
-    <net code="41" name="/AGND">
+    <net code="2" name="/AGND">
+      <node ref="MDB1" pin="AGND"/>
       <node ref="TEENSY1" pin="AGND"/>
-      <node ref="MDT1" pin="AGND"/>
     </net>
-    <net code="42" name="/AREF">
-      <node ref="MDT1" pin="AREF"/>
+    <net code="3" name="/AREF">
+      <node ref="MDB1" pin="AREF"/>
       <node ref="TEENSY1" pin="AREF"/>
     </net>
-    <net code="43" name="/TX2">
-      <node ref="P3" pin="3"/>
-      <node ref="TEENSY1" pin="31"/>
+    <net code="4" name="VEE">
+      <node ref="D2" pin="1"/>
+      <node ref="MDB1" pin="VEE"/>
+      <node ref="D1" pin="1"/>
+      <node ref="TEENSY1" pin="V_IN"/>
+      <node ref="C4" pin="1"/>
     </net>
-    <net code="44" name="VAA">
-      <node ref="P1" pin="1"/>
-      <node ref="D3" pin="2"/>
+    <net code="5" name="VDD">
+      <node ref="C3" pin="1"/>
+      <node ref="MDB1" pin="VDD"/>
+      <node ref="REG1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
     </net>
-    <net code="45" name="/TX1">
-      <node ref="TEENSY1" pin="1"/>
-      <node ref="P2" pin="3"/>
+    <net code="6" name="GND">
+      <node ref="P4" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P5" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P6" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="REG1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="TEENSY1" pin="GND"/>
+      <node ref="MDB1" pin="GND"/>
+      <node ref="C4" pin="2"/>
     </net>
-    <net code="46" name="/TX3">
-      <node ref="P4" pin="3"/>
-      <node ref="TEENSY1" pin="8"/>
+    <net code="7" name="Net-(TEENSY1-PadA12)">
+      <node ref="TEENSY1" pin="A12"/>
     </net>
-    <net code="47" name="/RX3">
+    <net code="8" name="/D25">
+      <node ref="MDB1" pin="25"/>
+      <node ref="TEENSY1" pin="25"/>
+    </net>
+    <net code="9" name="/D24">
+      <node ref="TEENSY1" pin="24"/>
+      <node ref="MDB1" pin="24"/>
+    </net>
+    <net code="10" name="Net-(TEENSY1-PadA11)">
+      <node ref="TEENSY1" pin="A11"/>
+    </net>
+    <net code="11" name="Net-(TEENSY1-PadA13)">
+      <node ref="TEENSY1" pin="A13"/>
+    </net>
+    <net code="12" name="Net-(TEENSY1-Pad27)">
+      <node ref="TEENSY1" pin="27"/>
+    </net>
+    <net code="13" name="Net-(TEENSY1-PadA10)">
+      <node ref="TEENSY1" pin="A10"/>
+    </net>
+    <net code="14" name="/D9">
+      <node ref="TEENSY1" pin="9"/>
+      <node ref="MDB1" pin="9"/>
+    </net>
+    <net code="15" name="/D6">
+      <node ref="MDB1" pin="6"/>
+      <node ref="TEENSY1" pin="6"/>
+    </net>
+    <net code="16" name="/D5">
+      <node ref="TEENSY1" pin="5"/>
+      <node ref="MDB1" pin="5"/>
+    </net>
+    <net code="17" name="/D4">
+      <node ref="MDB1" pin="4"/>
+      <node ref="TEENSY1" pin="4"/>
+    </net>
+    <net code="18" name="/D3">
+      <node ref="MDB1" pin="3"/>
+      <node ref="TEENSY1" pin="3"/>
+    </net>
+    <net code="19" name="/D2">
+      <node ref="TEENSY1" pin="2"/>
+      <node ref="MDB1" pin="2"/>
+    </net>
+    <net code="20" name="/V_USB">
+      <node ref="D1" pin="2"/>
+      <node ref="TEENSY1" pin="V_U"/>
+    </net>
+    <net code="21" name="/D10">
+      <node ref="TEENSY1" pin="10"/>
+      <node ref="MDB1" pin="10"/>
+    </net>
+    <net code="22" name="/D16">
+      <node ref="MDB1" pin="16"/>
+      <node ref="TEENSY1" pin="16"/>
+    </net>
+    <net code="23" name="/DAC">
+      <node ref="TEENSY1" pin="DAC"/>
+      <node ref="MDB1" pin="DAC"/>
+    </net>
+    <net code="24" name="/D29">
+      <node ref="TEENSY1" pin="29"/>
+      <node ref="MDB1" pin="29"/>
+    </net>
+    <net code="25" name="/D19">
+      <node ref="MDB1" pin="19"/>
+      <node ref="TEENSY1" pin="19"/>
+    </net>
+    <net code="26" name="/D28">
+      <node ref="TEENSY1" pin="28"/>
+      <node ref="MDB1" pin="28"/>
+    </net>
+    <net code="27" name="/D18">
+      <node ref="TEENSY1" pin="18"/>
+      <node ref="MDB1" pin="18"/>
+    </net>
+    <net code="28" name="/D17">
+      <node ref="MDB1" pin="17"/>
+      <node ref="TEENSY1" pin="17"/>
+    </net>
+    <net code="29" name="/D15">
+      <node ref="TEENSY1" pin="15"/>
+      <node ref="MDB1" pin="15"/>
+    </net>
+    <net code="30" name="/D14">
+      <node ref="MDB1" pin="14"/>
+      <node ref="TEENSY1" pin="14"/>
+    </net>
+    <net code="31" name="/D23">
+      <node ref="MDB1" pin="23"/>
+      <node ref="TEENSY1" pin="23"/>
+    </net>
+    <net code="32" name="/D13">
+      <node ref="MDB1" pin="13"/>
+      <node ref="TEENSY1" pin="13"/>
+    </net>
+    <net code="33" name="/D22">
+      <node ref="TEENSY1" pin="22"/>
+      <node ref="MDB1" pin="22"/>
+    </net>
+    <net code="34" name="/D12">
+      <node ref="TEENSY1" pin="12"/>
+      <node ref="MDB1" pin="12"/>
+    </net>
+    <net code="35" name="/D21">
+      <node ref="MDB1" pin="21"/>
+      <node ref="TEENSY1" pin="21"/>
+    </net>
+    <net code="36" name="/D11">
+      <node ref="TEENSY1" pin="11"/>
+      <node ref="MDB1" pin="11"/>
+    </net>
+    <net code="37" name="/D30">
+      <node ref="MDB1" pin="30"/>
+      <node ref="TEENSY1" pin="30"/>
+    </net>
+    <net code="38" name="/D20">
+      <node ref="TEENSY1" pin="20"/>
+      <node ref="MDB1" pin="20"/>
+    </net>
+    <net code="39" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
+    </net>
+    <net code="40" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(MH3-Pad1)">
+      <node ref="MH3" pin="1"/>
+    </net>
+    <net code="42" name="/RX3">
       <node ref="P4" pin="1"/>
       <node ref="TEENSY1" pin="7"/>
     </net>
-    <net code="48" name="/RX1">
-      <node ref="P2" pin="1"/>
-      <node ref="TEENSY1" pin="0"/>
+    <net code="43" name="/TX3">
+      <node ref="P4" pin="3"/>
+      <node ref="TEENSY1" pin="8"/>
     </net>
-    <net code="49" name="/RX2">
+    <net code="44" name="/RX2">
       <node ref="TEENSY1" pin="26"/>
       <node ref="P3" pin="1"/>
     </net>
-    <net code="50" name="/V_USB">
-      <node ref="TEENSY1" pin="V_U"/>
-      <node ref="D1" pin="2"/>
+    <net code="45" name="/TX2">
+      <node ref="TEENSY1" pin="31"/>
+      <node ref="P3" pin="3"/>
     </net>
-    <net code="51" name="VCC">
-      <node ref="P6" pin="1"/>
-      <node ref="D4" pin="2"/>
-    </net>
-    <net code="52" name="/PROG">
-      <node ref="SW1" pin="2"/>
-      <node ref="TEENSY1" pin="PROG"/>
-    </net>
-    <net code="53" name="+5V">
+    <net code="46" name="+5V">
+      <node ref="D2" pin="2"/>
       <node ref="REG1" pin="3"/>
       <node ref="C2" pin="1"/>
-      <node ref="D2" pin="2"/>
+    </net>
+    <net code="47" name="/BNC_B">
+      <node ref="P5" pin="3"/>
+      <node ref="TEENSY1" pin="32"/>
+    </net>
+    <net code="48" name="/BNC_A">
+      <node ref="P5" pin="1"/>
+      <node ref="TEENSY1" pin="33"/>
+    </net>
+    <net code="49" name="VAA">
+      <node ref="P1" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="50" name="/TX1">
+      <node ref="TEENSY1" pin="1"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="51" name="/RX1">
+      <node ref="TEENSY1" pin="0"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="52" name="/PROG">
+      <node ref="TEENSY1" pin="PROG"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="53" name="VCC">
+      <node ref="D4" pin="2"/>
+      <node ref="P6" pin="1"/>
     </net>
   </nets>
 </export>
