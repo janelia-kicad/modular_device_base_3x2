@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "modular_device_base_3x2"
 Date ""
-Rev "1.2"
+Rev "1.0"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""

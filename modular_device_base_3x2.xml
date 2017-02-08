@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/modular_device_base_3x2/modular_device_base_3x2.sch</source>
-    <date>Tue 07 Feb 2017 04:55:01 PM EST</date>
+    <date>Wed 08 Feb 2017 09:47:20 AM EST</date>
     <tool>Eeschema no-vcs-found-7584~57~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>modular_device_base_3x2</title>
         <company>Janelia</company>
-        <rev>1.2</rev>
+        <rev>1.0</rev>
         <date/>
         <source>modular_device_base_3x2.sch</source>
         <comment number="1" value=""/>
