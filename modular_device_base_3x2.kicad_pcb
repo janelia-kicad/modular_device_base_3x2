@@ -28,7 +28,7 @@
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user)
+    (39 F.Mask user hide)
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
@@ -1187,10 +1187,10 @@
       (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module modular_device_base_3x2:Header_3_Pin_SMD_RA (layer B.Cu) (tedit 56D07500) (tstamp 589A3D3F)
+  (module modular_device_base_3x2:Header_3_Pin_SMD_RA (layer B.Cu) (tedit 5926F353) (tstamp 589A3D3F)
     (at 127.635 116.205)
     (path /5751F26D)
-    (fp_text reference P5 (at -5.715 -6.985) (layer B.SilkS)
+    (fp_text reference P5 (at -6.35 -6.985) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)) (justify mirror))
     )
     (fp_text value HEADER_01X03_SMD_RA (at 0.635 3.81) (layer B.SilkS) hide
