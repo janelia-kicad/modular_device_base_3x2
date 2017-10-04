@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=${KILIBS}
 [eeschema/libraries]
 LibName1=power
 LibName2=modular_device_base_3x2
