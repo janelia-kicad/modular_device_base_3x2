@@ -1,4 +1,4 @@
-update=Tue 23 May 2017 02:56:20 PM EDT
+update=Thu 16 Nov 2017 09:38:59 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,13 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=${KILIBS}
-[eeschema/libraries]
-LibName1=power
-LibName2=modular_device_base_3x2
-LibName3=components
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -42,3 +35,6 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[eeschema]
+version=1
+LibDir=
