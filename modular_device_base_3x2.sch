@@ -1,7 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:modular_device_base_3x2
-LIBS:components
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -17,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONV_DC_DC_5V_1A REG1
+L modular_device_base_3x2:CONV_DC_DC_5V_1A REG1
 U 1 1 5751CAA6
 P 3250 7150
 F 0 "REG1" H 3250 7397 60  0000 C CNN
@@ -31,7 +28,7 @@ F 6 "CONV DC/DC 1A 5V OUT SIP VERT" H 3750 7150 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10uF C1
+L modular_device_base_3x2:10uF C1
 U 1 1 5751CBF8
 P 2650 7450
 F 0 "C1" H 2765 7480 40  0000 L CNN
@@ -45,7 +42,7 @@ F 6 "CAP CER 10UF 50V 10% X7S 1210" H 2950 7850 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10uF C2
+L modular_device_base_3x2:10uF C2
 U 1 1 5751CD5D
 P 3850 7450
 F 0 "C2" H 3965 7480 40  0000 L CNN
@@ -59,20 +56,20 @@ F 6 "CAP CER 10UF 50V 10% X7S 1210" H 4150 7850 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 7650 3850 7650
+	2650 7650 3250 7650
 Wire Wire Line
-	3250 7500 3250 7750
+	3250 7500 3250 7650
 Connection ~ 3250 7650
 Wire Wire Line
-	2650 7100 2650 7250
+	2650 7100 2650 7150
 Wire Wire Line
 	2650 7150 2850 7150
 Wire Wire Line
 	3650 7150 3850 7150
 Wire Wire Line
-	3850 7100 3850 7250
+	3850 7100 3850 7150
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5751CFDE
 P 3250 7750
 F 0 "#PWR014" H 3250 7500 50  0001 C CNN
@@ -83,7 +80,7 @@ F 3 "" H 3250 7750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 5751E700
 P 700 7400
 F 0 "#FLG01" H 700 7495 50  0001 C CNN
@@ -94,7 +91,7 @@ F 3 "" H 700 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 5751E72B
 P 1000 7300
 F 0 "#FLG02" H 1000 7395 50  0001 C CNN
@@ -105,7 +102,7 @@ F 3 "" H 1000 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR02
+L power:VAA #PWR02
 U 1 1 5751E779
 P 1150 7350
 F 0 "#PWR02" H 1150 7200 50  0001 C CNN
@@ -118,16 +115,16 @@ $EndComp
 Wire Wire Line
 	1000 7300 1000 7400
 Wire Wire Line
-	1000 7400 1250 7400
+	1000 7400 1150 7400
 Wire Wire Line
 	1150 7350 1150 7400
 Connection ~ 1150 7400
 Wire Wire Line
 	700  7400 700  7500
 Wire Wire Line
-	700  7500 1250 7500
+	700  7500 1150 7500
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5751E825
 P 1150 7550
 F 0 "#PWR03" H 1150 7300 50  0001 C CNN
@@ -141,7 +138,7 @@ Wire Wire Line
 	1150 7500 1150 7550
 Connection ~ 1150 7500
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5751EC8F
 P 1500 2200
 F 0 "#PWR07" H 1500 1950 50  0001 C CNN
@@ -158,7 +155,7 @@ Wire Wire Line
 Text Label 1650 2100 0    60   ~ 0
 GND
 $Comp
-L HEADER_01X03_SMD_RA P3
+L modular_device_base_3x2:HEADER_01X03_SMD_RA P3
 U 1 1 5751EDB4
 P 800 6250
 F 0 "P3" H 800 6050 50  0000 C CNN
@@ -200,7 +197,7 @@ RX3
 Text Label 2100 3000 2    60   ~ 0
 TX3
 $Comp
-L HEADER_01X03_SMD_RA P5
+L modular_device_base_3x2:HEADER_01X03_SMD_RA P5
 U 1 1 5751F26D
 P 1900 6250
 F 0 "P5" H 1900 6050 50  0000 C CNN
@@ -227,7 +224,7 @@ Text Label 2150 6250 0    60   ~ 0
 GND
 Connection ~ 2650 7150
 $Comp
-L BNC_DOUBLE_RA P2
+L modular_device_base_3x2:BNC_DOUBLE_RA P2
 U 1 1 5751FB89
 P 5500 7400
 F 0 "P2" H 5500 7665 50  0000 C CNN
@@ -241,7 +238,7 @@ F 6 "CONN BNC JACK R/A 75 OHM PCB" H 5800 7850 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 5751FC2B
 P 5850 7550
 F 0 "#PWR023" H 5850 7300 50  0001 C CNN
@@ -254,7 +251,7 @@ $EndComp
 Wire Wire Line
 	5750 7350 5850 7350
 Wire Wire Line
-	5850 7350 5850 7550
+	5850 7350 5850 7450
 Wire Wire Line
 	5750 7450 5850 7450
 Connection ~ 5850 7450
@@ -271,9 +268,9 @@ V_USB
 Wire Wire Line
 	4950 2050 4950 2100
 Wire Wire Line
-	4800 2100 5750 2100
+	4800 2100 4950 2100
 $Comp
-L +5V #PWR015
+L power:+5V #PWR015
 U 1 1 57520478
 P 3850 7100
 F 0 "#PWR015" H 3850 6950 50  0001 C CNN
@@ -288,7 +285,7 @@ Wire Wire Line
 	5300 2100 5300 2050
 Connection ~ 4950 2100
 $Comp
-L +5V #PWR021
+L power:+5V #PWR021
 U 1 1 57520888
 P 5300 1800
 F 0 "#PWR021" H 5300 1650 50  0001 C CNN
@@ -312,7 +309,7 @@ Wire Wire Line
 	5500 2100 5500 1800
 Connection ~ 5300 2100
 $Comp
-L diode_schottky_15V_1A D1
+L modular_device_base_3x2:diode_schottky_15V_1A D1
 U 1 1 5764103B
 P 4950 1950
 F 0 "D1" V 4950 1882 50  0000 R CNN
@@ -326,7 +323,7 @@ F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 5200 2330 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L diode_schottky_15V_1A D2
+L modular_device_base_3x2:diode_schottky_15V_1A D2
 U 1 1 57640DFA
 P 5300 1950
 F 0 "D2" V 5300 1882 50  0000 R CNN
@@ -340,7 +337,7 @@ F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 5550 2330 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HEADER_01X02_SMD_RA P4
+L modular_device_base_3x2:HEADER_01X02_SMD_RA P4
 U 1 1 57643F2D
 P 1550 6250
 F 0 "P4" H 1550 6100 50  0000 C CNN
@@ -354,7 +351,7 @@ F 6 "CONN HEADER 2POS R/A SMD GOLD" H 1850 6700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR04
+L power:VCC #PWR04
 U 1 1 57645344
 P 1300 6150
 F 0 "#PWR04" H 1300 6000 50  0001 C CNN
@@ -365,7 +362,7 @@ F 3 "" H 1300 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5764558A
 P 1300 6400
 F 0 "#PWR05" H 1300 6150 50  0001 C CNN
@@ -384,7 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 6300 1300 6400
 $Comp
-L HEADER_01X02_SMD_RA P6
+L modular_device_base_3x2:HEADER_01X02_SMD_RA P6
 U 1 1 57683F62
 P 2500 6250
 F 0 "P6" H 2500 6100 50  0000 C CNN
@@ -398,7 +395,7 @@ F 6 "CONN HEADER 2POS R/A SMD GOLD" H 2800 6700 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 576840F7
 P 2750 6400
 F 0 "#PWR012" H 2750 6150 50  0001 C CNN
@@ -417,7 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 6300 2750 6400
 $Comp
-L VEE #PWR022
+L power:VEE #PWR022
 U 1 1 57683180
 P 5500 1800
 F 0 "#PWR022" H 5500 1650 50  0001 C CNN
@@ -428,7 +425,7 @@ F 3 "" H 5500 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KT_SWITCH SW1
+L modular_device_base_3x2:KT_SWITCH SW1
 U 1 1 576846F0
 P 4350 7400
 F 0 "SW1" V 4312 7477 40  0000 L CNN
@@ -442,7 +439,7 @@ F 6 "SWITCH TACTILE SPST-NO 1VA 32V" H 4650 7800 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 576848A6
 P 4350 7750
 F 0 "#PWR018" H 4350 7500 50  0001 C CNN
@@ -703,7 +700,7 @@ AGND
 Text Label 9500 2600 0    60   ~ 0
 3V3
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 577150E0
 P 6350 2450
 F 0 "#PWR024" H 6350 2200 50  0001 C CNN
@@ -718,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 2400 6800 2400
 $Comp
-L VDD #PWR025
+L power:VDD #PWR025
 U 1 1 577153D8
 P 6750 2250
 F 0 "#PWR025" H 6750 2100 50  0001 C CNN
@@ -733,7 +730,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 2300 6800 2300
 $Comp
-L VEE #PWR035
+L power:VEE #PWR035
 U 1 1 57715626
 P 9800 2250
 F 0 "#PWR035" H 9800 2100 50  0001 C CNN
@@ -748,7 +745,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 2400 9800 2250
 $Comp
-L PWR_FLAG #FLG07
+L power:PWR_FLAG #FLG07
 U 1 1 577166D7
 P 5750 2000
 F 0 "#FLG07" H 5750 2095 50  0001 C CNN
@@ -762,7 +759,7 @@ Wire Wire Line
 	5750 2100 5750 2000
 Connection ~ 5500 2100
 $Comp
-L PWR_FLAG #FLG08
+L power:PWR_FLAG #FLG08
 U 1 1 57716C30
 P 6050 2100
 F 0 "#FLG08" H 6050 2195 50  0001 C CNN
@@ -775,7 +772,7 @@ $EndComp
 Wire Wire Line
 	6050 2200 6050 2100
 $Comp
-L 10uF C3
+L modular_device_base_3x2:10uF C3
 U 1 1 5788FFF4
 P 6900 6050
 F 0 "C3" H 7015 6080 40  0000 L CNN
@@ -789,7 +786,7 @@ F 6 "CAP CER 10UF 50V 10% X7S 1210" H 7200 6450 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10uF C4
+L modular_device_base_3x2:10uF C4
 U 1 1 5789010A
 P 7250 6050
 F 0 "C4" H 7365 6080 40  0000 L CNN
@@ -803,7 +800,7 @@ F 6 "CAP CER 10UF 50V 10% X7S 1210" H 7550 6450 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10uF C5
+L modular_device_base_3x2:10uF C5
 U 1 1 57890173
 P 7600 6050
 F 0 "C5" H 7715 6080 40  0000 L CNN
@@ -817,7 +814,7 @@ F 6 "CAP CER 10UF 50V 10% X7S 1210" H 7900 6450 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VEE #PWR028
+L power:VEE #PWR028
 U 1 1 57890499
 P 7250 5800
 F 0 "#PWR028" H 7250 5650 50  0001 C CNN
@@ -838,7 +835,7 @@ Wire Wire Line
 Text Label 7650 5800 0    60   ~ 0
 3V3
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 57890974
 P 6900 6300
 F 0 "#PWR027" H 6900 6050 50  0001 C CNN
@@ -849,7 +846,7 @@ F 3 "" H 6900 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 57890A97
 P 7250 6300
 F 0 "#PWR029" H 7250 6050 50  0001 C CNN
@@ -860,7 +857,7 @@ F 3 "" H 7250 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 57890ADE
 P 7600 6300
 F 0 "#PWR030" H 7600 6050 50  0001 C CNN
@@ -880,7 +877,7 @@ NoConn ~ 9650 5950
 NoConn ~ 9650 6150
 NoConn ~ 9650 6350
 $Comp
-L MNT_HOLE MH1
+L modular_device_base_3x2:MNT_HOLE MH1
 U 1 1 57967F84
 P 9850 5950
 F 0 "MH1" H 9927 5991 50  0000 L CNN
@@ -894,7 +891,7 @@ F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10150 6350 60  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L MNT_HOLE MH2
+L modular_device_base_3x2:MNT_HOLE MH2
 U 1 1 57968003
 P 9850 6150
 F 0 "MH2" H 9927 6191 50  0000 L CNN
@@ -908,7 +905,7 @@ F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10150 6550 60  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L MNT_HOLE MH3
+L modular_device_base_3x2:MNT_HOLE MH3
 U 1 1 5796805F
 P 9850 6350
 F 0 "MH3" H 9927 6391 50  0000 L CNN
@@ -922,7 +919,7 @@ F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10150 6750 60  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L MODULAR_DEVICE_BASE_3x2_FEMALE MDB1
+L modular_device_base_3x2:MODULAR_DEVICE_BASE_3x2_FEMALE MDB1
 U 1 1 5894E061
 P 8050 3050
 F 0 "MDB1" H 8050 4047 60  0000 C CNN
@@ -937,7 +934,7 @@ F 7 "2" H 1600 1300 60  0001 C CNN "PartCount"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEENSY_3.2 TEENSY1
+L modular_device_base_3x2:TEENSY_3.2 TEENSY1
 U 1 1 5894DCD6
 P 3550 2750
 F 0 "TEENSY1" H 3550 3747 60  0000 C CNN
@@ -951,7 +948,7 @@ F 6 "DEV TEENSY 3.2 13736" H 100 2400 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_JACK_2.5x5.5 P1
+L modular_device_base_3x2:PWR_JACK_2.5x5.5 P1
 U 1 1 589A46D9
 P 1450 7450
 F 0 "P1" H 1450 7600 50  0000 C CNN
@@ -966,7 +963,7 @@ F 6 "CONN PWR JACK DC 2.5X5.5 8A T/H" H 50  450 60  0001 C CNN "Description"
 $EndComp
 NoConn ~ 9650 6550
 $Comp
-L MNT_HOLE MH4
+L modular_device_base_3x2:MNT_HOLE MH4
 U 1 1 589A517F
 P 9850 6550
 F 0 "MH4" H 9927 6591 50  0000 L CNN
@@ -980,7 +977,7 @@ F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10150 6950 60  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR01
+L power:VAA #PWR01
 U 1 1 591DECB4
 P 1000 4900
 F 0 "#PWR01" H 1000 4750 50  0001 C CNN
@@ -991,7 +988,7 @@ F 3 "" H 1000 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L diode_schottky_45V_10A D3
+L modular_device_base_3x2:diode_schottky_45V_10A D3
 U 1 1 591DED1E
 P 1000 5100
 F 0 "D3" H 1000 5000 50  0000 C CNN
@@ -1005,7 +1002,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 1250 5480 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR08
+L power:VCC #PWR08
 U 1 1 591DF34F
 P 1900 4900
 F 0 "#PWR08" H 1900 4750 50  0001 C CNN
@@ -1016,7 +1013,7 @@ F 3 "" H 1900 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L diode_schottky_45V_10A D4
+L modular_device_base_3x2:diode_schottky_45V_10A D4
 U 1 1 591DF3BD
 P 1350 5100
 F 0 "D4" H 1350 5000 50  0000 C CNN
@@ -1030,7 +1027,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 1600 5480 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L diode_schottky_45V_10A D5
+L modular_device_base_3x2:diode_schottky_45V_10A D5
 U 1 1 591DF441
 P 1550 5100
 F 0 "D5" H 1550 5200 50  0000 C CNN
@@ -1044,7 +1041,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 1800 5480 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L diode_schottky_45V_10A D6
+L modular_device_base_3x2:diode_schottky_45V_10A D6
 U 1 1 591DFC37
 P 1800 5100
 F 0 "D6" H 1800 4987 50  0000 C CNN
@@ -1058,7 +1055,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2050 5480 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L diode_schottky_45V_10A D7
+L modular_device_base_3x2:diode_schottky_45V_10A D7
 U 1 1 591DFC40
 P 2000 5100
 F 0 "D7" H 2000 5200 50  0000 C CNN
@@ -1072,7 +1069,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2250 5480 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L VDD #PWR06
+L power:VDD #PWR06
 U 1 1 591DFD5F
 P 1450 4900
 F 0 "#PWR06" H 1450 4750 50  0001 C CNN
@@ -1083,7 +1080,7 @@ F 3 "" H 1450 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR09
+L power:VSS #PWR09
 U 1 1 591DFEB1
 P 2350 4900
 F 0 "#PWR09" H 2350 4750 50  0001 C CNN
@@ -1094,7 +1091,7 @@ F 3 "" H 2350 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L diode_schottky_45V_10A D8
+L modular_device_base_3x2:diode_schottky_45V_10A D8
 U 1 1 591E0040
 P 2250 5100
 F 0 "D8" H 2250 4987 50  0000 C CNN
@@ -1108,7 +1105,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2500 5480 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L diode_schottky_45V_10A D9
+L modular_device_base_3x2:diode_schottky_45V_10A D9
 U 1 1 591E0049
 P 2450 5100
 F 0 "D9" H 2450 5200 50  0000 C CNN
@@ -1122,7 +1119,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2700 5480 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L VSS #PWR011
+L power:VSS #PWR011
 U 1 1 591E12C0
 P 2750 6150
 F 0 "#PWR011" H 2750 6000 50  0001 C CNN
@@ -1133,7 +1130,7 @@ F 3 "" H 2750 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR013
+L power:VPP #PWR013
 U 1 1 591E142C
 P 2800 4900
 F 0 "#PWR013" H 2800 4750 50  0001 C CNN
@@ -1144,7 +1141,7 @@ F 3 "" H 2800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG03
 U 1 1 591E1F82
 P 1350 4850
 F 0 "#FLG03" H 1350 4945 50  0001 C CNN
@@ -1155,7 +1152,7 @@ F 3 "" H 1350 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L power:PWR_FLAG #FLG04
 U 1 1 591E214F
 P 1800 4850
 F 0 "#FLG04" H 1800 4945 50  0001 C CNN
@@ -1166,7 +1163,7 @@ F 3 "" H 1800 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG05
+L power:PWR_FLAG #FLG05
 U 1 1 591E222C
 P 2250 4850
 F 0 "#FLG05" H 2250 4945 50  0001 C CNN
@@ -1177,7 +1174,7 @@ F 3 "" H 2250 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG06
+L power:PWR_FLAG #FLG06
 U 1 1 591E22AF
 P 2700 4850
 F 0 "#FLG06" H 2700 4945 50  0001 C CNN
@@ -1188,21 +1185,21 @@ F 3 "" H 2700 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 4850 1350 5000
+	1350 4850 1350 4950
 Wire Wire Line
-	1350 4950 1550 4950
+	1350 4950 1450 4950
 Wire Wire Line
 	1550 4950 1550 5000
 Wire Wire Line
-	1800 4850 1800 5000
+	1800 4850 1800 4950
 Wire Wire Line
-	1800 4950 2000 4950
+	1800 4950 1900 4950
 Wire Wire Line
 	2000 4950 2000 5000
 Wire Wire Line
-	2250 4850 2250 5000
+	2250 4850 2250 4950
 Wire Wire Line
-	2250 4950 2450 4950
+	2250 4950 2350 4950
 Wire Wire Line
 	2450 4950 2450 5000
 Wire Wire Line
@@ -1222,9 +1219,9 @@ Connection ~ 2350 4950
 Wire Wire Line
 	1000 5200 1000 5250
 Wire Wire Line
-	1000 5250 2800 5250
+	1000 5250 1350 5250
 Wire Wire Line
-	2800 5250 2800 4900
+	2800 5250 2800 4950
 Wire Wire Line
 	2700 4850 2700 4950
 Wire Wire Line
@@ -1249,7 +1246,7 @@ Wire Wire Line
 	2450 5200 2450 5250
 Connection ~ 2450 5250
 $Comp
-L VPP #PWR010
+L power:VPP #PWR010
 U 1 1 591E3506
 P 2650 7100
 F 0 "#PWR010" H 2650 6950 50  0001 C CNN
@@ -1260,7 +1257,7 @@ F 3 "" H 2650 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR026
+L power:VPP #PWR026
 U 1 1 591E365B
 P 6900 5800
 F 0 "#PWR026" H 6900 5650 50  0001 C CNN
@@ -1274,7 +1271,7 @@ NoConn ~ 2300 3500
 Text Label 4400 7100 0    60   ~ 0
 BTN_A
 $Comp
-L MAX6817 U1
+L modular_device_base_3x2:MAX6817 U1
 U 1 1 591E8496
 P 4950 6250
 F 0 "U1" H 5150 6000 60  0000 C CNN
@@ -1288,7 +1285,7 @@ F 6 "IC DEBOUNCER SWITCH DUAL SOT23-6" H 4950 5600 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 591E88EA
 P 4950 6600
 F 0 "#PWR020" H 4950 6350 50  0001 C CNN
@@ -1301,7 +1298,7 @@ $EndComp
 NoConn ~ 5350 6400
 NoConn ~ 4550 6400
 $Comp
-L VEE #PWR019
+L power:VEE #PWR019
 U 1 1 591E8BF7
 P 4950 5900
 F 0 "#PWR019" H 4950 5750 50  0001 C CNN
@@ -1328,7 +1325,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6550 4950 6600
 $Comp
-L 0.1uF C6
+L modular_device_base_3x2:0.1uF C6
 U 1 1 591E9F04
 P 3950 6250
 F 0 "C6" H 4000 6350 40  0000 L CNN
@@ -1342,7 +1339,7 @@ F 6 "CAP CER 0.1UF 100V X7R 1210" H 4250 6650 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VEE #PWR016
+L power:VEE #PWR016
 U 1 1 591EA2D9
 P 3950 6000
 F 0 "#PWR016" H 3950 5850 50  0001 C CNN
@@ -1353,7 +1350,7 @@ F 3 "" H 3950 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 591EA35C
 P 3950 6500
 F 0 "#PWR017" H 3950 6250 50  0001 C CNN
@@ -1376,7 +1373,7 @@ LED_GRN
 Text Label 2100 4100 2    60   ~ 0
 LED_YEL
 $Comp
-L LED_5V_GRN_RA L2
+L modular_device_base_3x2:LED_5V_GRN_RA L2
 U 1 1 5923804C
 P 8800 6050
 F 0 "L2" V 8800 6100 50  0000 L CNN
@@ -1390,7 +1387,7 @@ F 6 "LED 2MM 5V RT ANGLE GREEN PCMNT" H 9100 6450 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 592386A9
 P 8800 6300
 F 0 "#PWR033" H 8800 6050 50  0001 C CNN
@@ -1405,7 +1402,7 @@ Wire Wire Line
 Text Label 8800 5750 0    60   ~ 0
 LED_GRN
 $Comp
-L LED_5V_YEL_RA L3
+L modular_device_base_3x2:LED_5V_YEL_RA L3
 U 1 1 59239186
 P 9250 6050
 F 0 "L3" V 9250 6100 50  0000 L CNN
@@ -1421,7 +1418,7 @@ $EndComp
 Wire Wire Line
 	8800 6250 8800 6300
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 59239432
 P 9250 6300
 F 0 "#PWR034" H 9250 6050 50  0001 C CNN
@@ -1438,7 +1435,7 @@ LED_YEL
 Wire Wire Line
 	9250 6250 9250 6300
 $Comp
-L 6.19k R1
+L modular_device_base_3x2:6.19k R1
 U 1 1 59247F61
 P 8350 5250
 F 0 "R1" V 8450 5250 40  0000 C CNN
@@ -1452,7 +1449,7 @@ F 6 "RES SMD 6.19K OHM 1% 1/2W 1210" V 8730 5550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_5V_RED_RA L1
+L modular_device_base_3x2:LED_5V_RED_RA L1
 U 1 1 5924842C
 P 8350 6050
 F 0 "L1" V 8350 6150 50  0000 L CNN
@@ -1466,7 +1463,7 @@ F 6 "LED 2MM 5V RT ANGLE RED PCMNT" H 8650 6450 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 59248BB8
 P 8350 6300
 F 0 "#PWR032" H 8350 6050 50  0001 C CNN
@@ -1479,7 +1476,7 @@ $EndComp
 Wire Wire Line
 	8350 6250 8350 6300
 $Comp
-L VPP #PWR031
+L power:VPP #PWR031
 U 1 1 59248FCF
 P 8350 4950
 F 0 "#PWR031" H 8350 4800 50  0001 C CNN
@@ -1492,7 +1489,7 @@ $EndComp
 Wire Wire Line
 	8350 4950 8350 5000
 $Comp
-L HEADER_01X03_RA P7
+L modular_device_base_3x2:HEADER_01X03_RA P7
 U 1 1 5925AC62
 P 8100 5650
 F 0 "P7" H 8100 5850 50  0000 C CNN
@@ -1515,7 +1512,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 5750 8350 5850
 $Comp
-L HEADER_01X02_SMD_RA_UNSHR P8
+L modular_device_base_3x2:HEADER_01X02_SMD_RA_UNSHR P8
 U 1 1 598A523E
 P 6000 6750
 F 0 "P8" H 6000 6900 50  0000 C CNN
@@ -1529,7 +1526,7 @@ F 6 "CONN HEADER 2POS .100in SNGL SMD" H 6300 7200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 598A5985
 P 5750 6850
 F 0 "#PWR036" H 5750 6600 50  0001 C CNN
@@ -1547,4 +1544,50 @@ Text Label 5750 6700 2    60   ~ 0
 BTN_A
 Wire Wire Line
 	5750 6700 5800 6700
+Wire Wire Line
+	3250 7650 3850 7650
+Wire Wire Line
+	3250 7650 3250 7750
+Wire Wire Line
+	1150 7400 1250 7400
+Wire Wire Line
+	1150 7500 1250 7500
+Wire Wire Line
+	2650 7150 2650 7250
+Wire Wire Line
+	5850 7450 5850 7550
+Wire Wire Line
+	3850 7150 3850 7250
+Wire Wire Line
+	4950 2100 5300 2100
+Wire Wire Line
+	5300 2100 5500 2100
+Wire Wire Line
+	5500 2100 5750 2100
+Wire Wire Line
+	1450 4950 1550 4950
+Wire Wire Line
+	1350 4950 1350 5000
+Wire Wire Line
+	1800 4950 1800 5000
+Wire Wire Line
+	2250 4950 2250 5000
+Wire Wire Line
+	1900 4950 2000 4950
+Wire Wire Line
+	2350 4950 2450 4950
+Wire Wire Line
+	2800 4950 2800 4900
+Wire Wire Line
+	1350 5250 1550 5250
+Wire Wire Line
+	1550 5250 1800 5250
+Wire Wire Line
+	1800 5250 2000 5250
+Wire Wire Line
+	2000 5250 2250 5250
+Wire Wire Line
+	2250 5250 2450 5250
+Wire Wire Line
+	2450 5250 2800 5250
 $EndSCHEMATC
