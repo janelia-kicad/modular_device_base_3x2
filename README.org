@@ -5,3 +5,15 @@
 * Repository Information
   - Author :: Peter Polidoro
   - License :: Open-Source Hardware
+
+* Schematic
+
+  [[./schematic/modular_device_base_3x2.pdf]]
+
+* Gerbers
+
+  [[./gerbers/modular_device_base_3x2_v1.2.zip]]
+
+* Bill of Materials
+
+  [[./bom/bom_pcb.csv]]
