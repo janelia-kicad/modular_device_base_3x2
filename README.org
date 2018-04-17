@@ -1,23 +1,31 @@
 #+TITLE: modular_device_base_3x2
 #+AUTHOR: Peter Polidoro
 #+EMAIL: peterpolidoro@gmail.com
-#+LINK: schematic ./schematic/modular_device_base_3x2.pdf
-#+LINK: gerbers ./gerbers/modular_device_base_3x2_v1.2.zip
-#+LINK: bom ./bom/bom_pcb.csv
-#+OPTIONS: toc:t title:t |:t
+#+OPTIONS: toc:t title:t |:t ^:nil
 
 * Repository Information
-  - Author :: Peter Polidoro
+  - Title :: {{{title}}}
+  - Author :: {{{author}}}
+  - Email :: {{{email}}}
   - License :: Open-Source Hardware
 
 * Schematic
 
-  [[schematic][schematic]]
+#+BEGIN_SRC sh :exports results
+  ls ./schematic/*.pdf
+#+END_SRC
+
+#+RESULTS:
+: ./schematic/modular_device_base_3x2.pdf
 
 * Gerbers
 
-  [[gerbers][gerbers]]
+#+BEGIN_SRC sh :exports results
+  ls ./gerbers/*.zip
+#+END_SRC
 
 * Bill of Materials
 
-  [[bom][bom]]
+#+BEGIN_SRC sh :exports results
+  ls ./bom/*.csv
+#+END_SRC

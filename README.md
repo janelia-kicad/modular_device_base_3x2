@@ -1,34 +1,40 @@
-- [Repository Information](#orgcc48a80)
-- [Schematic](#org16573cb)
-- [Gerbers](#orgd1d9e40)
-- [Bill of Materials](#orgc1d9738)
+- [Repository Information](#orgf4c06a8)
+- [Schematic](#org328ba25)
+- [Gerbers](#org4bf5f2f)
+- [Bill of Materials](#orgd44a223)
 
 
 
-<a id="orgcc48a80"></a>
+<a id="orgf4c06a8"></a>
 
 # Repository Information
 
+-   **Title:** modular\_device\_base\_3x2
 -   **Author:** Peter Polidoro
+-   **Email:** peterpolidoro@gmail.com
 -   **License:** Open-Source Hardware
 
 
-<a id="org16573cb"></a>
+<a id="org328ba25"></a>
 
 # Schematic
 
-[schematic](./schematic/modular_device_base_3x2.pdf)
+    ./schematic/modular_device_base_3x2.pdf
 
 
-<a id="orgd1d9e40"></a>
+<a id="org4bf5f2f"></a>
 
 # Gerbers
 
-[gerbers](./gerbers/modular_device_base_3x2_v1.2.zip)
+    ./gerbers/modular_device_base_3x2_v1.2.zip
 
 
-<a id="orgc1d9738"></a>
+<a id="orgd44a223"></a>
 
 # Bill of Materials
 
-[bom](./bom/bom_pcb.csv)
+| ./bom/bom\_pcb\_add.csv            |
+| ./bom/bom\_pcb.csv                 |
+| ./bom/digikey\_order.csv           |
+| ./bom/digikey\_order\_pcb\_add.csv |
+| ./bom/digikey\_order\_pcb.csv      |
