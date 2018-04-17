@@ -11,21 +11,18 @@
 
 * Schematic
 
-#+BEGIN_SRC sh :exports results
+#+BEGIN_SRC sh :exports results :results value file
   ls ./schematic/*.pdf
 #+END_SRC
 
-#+RESULTS:
-: ./schematic/modular_device_base_3x2.pdf
-
 * Gerbers
 
-#+BEGIN_SRC sh :exports results
+#+BEGIN_SRC sh :exports results :results value file
   ls ./gerbers/*.zip
 #+END_SRC
 
 * Bill of Materials
 
-#+BEGIN_SRC sh :exports results
+#+BEGIN_SRC sh :exports results :results value file
   ls ./bom/*.csv
 #+END_SRC
