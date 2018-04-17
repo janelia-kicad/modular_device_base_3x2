@@ -1,11 +1,11 @@
-- [Repository Information](#orga407f85)
-- [Schematic](#org22f4204)
-- [Gerbers](#orge6ef205)
-- [Bill of Materials](#org6834c09)
+- [Repository Information](#orgcc48a80)
+- [Schematic](#org16573cb)
+- [Gerbers](#orgd1d9e40)
+- [Bill of Materials](#orgc1d9738)
 
 
 
-<a id="orga407f85"></a>
+<a id="orgcc48a80"></a>
 
 # Repository Information
 
@@ -13,22 +13,22 @@
 -   **License:** Open-Source Hardware
 
 
-<a id="org22f4204"></a>
+<a id="org16573cb"></a>
 
 # Schematic
 
-<./schematic/modular_device_base_3x2.pdf>
+[schematic](./schematic/modular_device_base_3x2.pdf)
 
 
-<a id="orge6ef205"></a>
+<a id="orgd1d9e40"></a>
 
 # Gerbers
 
-<./gerbers/modular_device_base_3x2_v1.2.zip>
+[gerbers](./gerbers/modular_device_base_3x2_v1.2.zip)
 
 
-<a id="org6834c09"></a>
+<a id="orgc1d9738"></a>
 
 # Bill of Materials
 
-<./bom/bom_pcb.csv>
+[bom](./bom/bom_pcb.csv)
