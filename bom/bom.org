@@ -1,0 +1,25 @@
+# Created 2018-05-16 Wed 14:23
+* Bill of Materials
+#+RESULTS: pcb-parts
+| Item | Reference(s)         | Quantity | PartNumber          | Vendor  | Description                                           |
+|------+----------------------+----------+---------------------+---------+-------------------------------------------------------|
+|    1 | C1 C2 C3 C4 C5       |        5 | 445-4536-1-ND       | digikey | CAP CER 10UF 50V 10% X7S 1210                         |
+|    2 | C6                   |        1 | 399-13229-1-ND      | digikey | CAP CER 0.1UF 100V X7R 1210                           |
+|    3 | D1 D2                |        2 | LSM115JE3/TR13CT-ND | digikey | DIODE SCHOTTKY 15V 1A DO214BA                         |
+|    4 | D3 D4 D5 D6 D7 D8 D9 |        7 | 568-11697-1-ND      | digikey | DIODE SCHOTTKY 45V 10A CFP15                          |
+|    5 | L1                   |        1 | 350-1712-ND         | digikey | LED 2MM 5V RT ANGLE RED PCMNT                         |
+|    6 | L2                   |        1 | 350-1717-ND         | digikey | LED 2MM 5V RT ANGLE GREEN PCMNT                       |
+|    7 | L3                   |        1 | 350-1719-ND         | digikey | LED 2MM 5V RT ANGLE YELLOW PCMNT                      |
+|    8 | MDB1                 |        2 | S7049-ND            | digikey | 16 Position Header Through Hole Female Socket         |
+|    9 | MH1 MH2 MH3 MH4      |        4 | 36-2027-ND          | digikey | Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in |
+|   10 | P1                   |        1 | CP-063BH-ND         | digikey | CONN PWR JACK DC 2.5X5.5 8A T/H                       |
+|   11 | P2                   |        1 | ACX1655-ND          | digikey | CONN BNC JACK R/A 75 OHM PCB                          |
+|   12 | P3 P5                |        2 | A100890CT-ND        | digikey | CONN HEADER 3POS R/A SMD GOLD                         |
+|   13 | P4 P6                |        2 | A100903CT-ND        | digikey | CONN HEADER 2POS R/A SMD GOLD                         |
+|   14 | P7                   |        1 | 732-5336-ND         | digikey | CONN HEADER 3 POS RA 2.54                             |
+|   15 | P8                   |        1 | SAM10781-ND         | digikey | CONN HEADER 2POS .100in SNGL SMD                      |
+|   16 | R1                   |        1 | P6.19KAACT-ND       | digikey | RES SMD 6.19K OHM 1% 1/2W 1210                        |
+|   17 | REG1                 |        1 | 945-1395-5-ND       | digikey | CONV DC/DC 1A 5V OUT SIP VERT                         |
+|   18 | SW1                  |        1 | CKN1860CT-ND        | digikey | SWITCH TACTILE SPST-NO 1VA 32V                        |
+|   19 | TEENSY1              |        1 | 1568-1231-ND        | digikey | DEV TEENSY 3.2 13736                                  |
+|   20 | U1                   |        1 | MAX6817EUT+TCT-ND   | digikey | IC DEBOUNCER SWITCH DUAL SOT23-6                      |
