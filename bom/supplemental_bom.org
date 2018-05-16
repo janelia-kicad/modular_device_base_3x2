@@ -1,0 +1,10 @@
+* Supplemental Bill of Materials
+#+RESULTS: supplemental-parts
+| Item | Quantity | PartNumber    | Vendor  | Description                                                              |
+|------+----------+---------------+---------+--------------------------------------------------------------------------|
+|    1 |        1 | EPS594-ND     | digikey | 30 WATT DESKTOP POWER SUPPLY 24V                                         |
+|    2 |        1 | 993-1037-ND   | digikey | CORD 3COND NEMA PLUG 320-C5                                              |
+|    3 |        1 | A106625CT-ND  | digikey | 14 Positions Header Unshrouded Breakaway Connector 0.100in 2 row SMD     |
+|    4 |        2 | S1011EC-24-ND | digikey | 24 Positions Header Unshrouded Breakaway Connector 0.100in 1 row Through |
+|    5 |        1 | S9001-ND      | digikey | CONN JUMPER SHORTING GOLD FLASH                                          |
+|    6 |        1 | AE10342-ND    | digikey | CABLE USB-A TO MICRO USB-B 2M                                            |
